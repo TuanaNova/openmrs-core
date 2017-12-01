@@ -103,9 +103,7 @@ public class GZIPResponseWrapper extends HttpServletResponseWrapper {
 		return (writer);
 	}
 	
-	@Override
-	public void setContentLength(int length) {
-	}
+	
 	
 	/**
 	 * @see javax.servlet.http.HttpServletResponse#sendError(int, java.lang.String)
